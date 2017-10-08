@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.aniruddh.parametercalculator.MainActivity"
+    android:padding="16dp"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="Tox(n)"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.40"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/toxField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="5.8"
+            android:layout_weight="0.60"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="μₒₙ"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.40"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/uonField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="455.30"
+            android:layout_weight="0.60"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="μₒₚ"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.40"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/uopField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="158.37"
+            android:layout_weight="0.60"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="Vₜₙ"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.40"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/vtnField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="0"
+            android:layout_weight="0.60"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="Vₜₚ"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.40"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/vtpField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="0"
+            android:layout_weight="0.60"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="Vₛₐₜ(mV)"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.40"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/vsatField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="200"
+            android:layout_weight="0.60"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="Length"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.40"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/lengthField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="0.6"
+            android:layout_weight="0.60"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="Iᵣₑf(mA)"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.40"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/irefField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="10"
+            android:layout_weight="0.60"/>
+
+    </LinearLayout>
+</LinearLayout>
